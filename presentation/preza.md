@@ -50,21 +50,21 @@ autosize: true
 Общие сведения
 ========================================================
 
-* Как информанты распределены по полу и возрасту?
+* Как информанты распределены по полу?
 
-<img src="preza2-figure/unnamed-chunk-1-1.png" title="plot of chunk unnamed-chunk-1" alt="plot of chunk unnamed-chunk-1" width="500px" height="500px" />
+<img src="preza-figure/unnamed-chunk-1-1.png" title="plot of chunk unnamed-chunk-1" alt="plot of chunk unnamed-chunk-1" width="500px" height="500px" />
 
 Общие сведения
 ========================================================
 
-* По уровню образования и полу?
+* По уровню образования?
 
-<img src="preza2-figure/unnamed-chunk-2-1.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" width="500px" height="500px" />
+<img src="preza-figure/unnamed-chunk-2-1.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" width="500px" height="500px" />
 
 Работа с данными
 ========================================================
 
-* Посчитали среднюю оценку для -ин и -ов для каждого информанта.
+* Посчитали корреляции для средней оценки для -ин и -ов для каждого информанта.
 
 Для первой части: 
 
@@ -84,6 +84,8 @@ autosize: true
 
 Работа с данными
 ========================================================
+
+* И корреляции для количество выбранных вариантов для каждого носителя
 
 Для второй части: 
 
@@ -105,14 +107,14 @@ autosize: true
 
 * Для "оба варианта одинаково приемлемы": 
 
-|возраст      |образование  |LA           |пол         |
+|возраст      |образование  |уровень пуризма           |пол         |
 |:------------|:------------|:------------|:-----------|
 |-0,002609011 |-0,014331612 |-0,148759976 |0,055032513 |
 
 
 * Для "оба варианта неприемлемы": 
 
-|возраст     |образование |LA          |пол          |
+|возраст     |образование |уровень пуризма          |пол          |
 |:-----------|:-----------|:-----------|:------------|
 |0,049178925 |0,045859917 |0,200508796 |-0,035910599 |
 
@@ -168,19 +170,19 @@ autosize: true
 
 Для -ин: 
 
-* Language Attitude -- p-value = 0.0180805
+* П -- p-value = 0.0180805
 
 Работа с данными
 ========================================================
 
 Построим графики для этих четырёх параметров: 
 
-<img src="preza2-figure/unnamed-chunk-3-1.png" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" width="700px" height="700px" />
+<img src="preza-figure/unnamed-chunk-3-1.png" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" width="700px" height="700px" />
 
 Работа с данными
 ========================================================
 
-<img src="preza2-figure/unnamed-chunk-4-1.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" width="700px" height="700px" />
+<img src="preza-figure/unnamed-chunk-4-1.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" width="700px" height="700px" />
 
 Работа с данными
 ========================================================
@@ -199,9 +201,9 @@ autosize: true
 Работа с данными
 ========================================================
 
-* Больше всего влияет Language Attitude
+* Больше всего влияет П
 
-<img src="preza2-figure/unnamed-chunk-5-1.png" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" width="700px" height="700px" />
+<img src="preza-figure/unnamed-chunk-5-1.png" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" width="700px" height="700px" />
 
 Работа с данными
 ========================================================
@@ -254,7 +256,7 @@ autosize: true
 
 * Уровень образование влияет в пользу выбора суффикса -ов. 
 
-* Уровень пуризма отрицательно влияет на частоту -ин и положительно на -ов.
+* Уровень пуризма отрицательно влияет и на -ин, и на -ов.
 
 * Больше всего на общую оценку влияет уровень пуризма (чем человек хуже относится к заимстованиям,
 тем хуже он оценивает предложенные примеры).
